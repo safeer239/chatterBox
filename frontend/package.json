@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --openssl-legacy-provider --host",
-    "build": "vite --openssl-legacy-provider build",
+    "dev": "vite --host",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -13,7 +13,6 @@
     "@chakra-ui/icons": "^2.1.1",
     "@chakra-ui/react": "^2.8.2",
     "@fontsource/roboto": "^5.1.0",
-    "@lottiefiles/dotlottie-react": "^0.8.12",
     "axios": "^1.7.5",
     "framer-motion": "^11.3.30",
     "react": "^18.3.1",
