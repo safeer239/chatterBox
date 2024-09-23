@@ -22,13 +22,13 @@ app.use("/api/user", userRoute);
 app.use("/api/chat", chatRoute);
 app.use("/api/message", messageRoute);
 
-const _dirname=path.resolve()
+// const __dirname=path.resolve()
 
 if(process.env.NODE_ENV === "production"){
-  app.use(express.static(path.join(_dirname,"/frontend/dist")))
+  app.use(express.static(path.join(__dirname,"../frontend/dist")))
 
   app.get("*", (req, res) => {
-    res.sendFile(path.resolve(_dirname,"/frontend/dist/index.html"))
+    res.sendFile(path.resolve(__dirname,"../frontend/dist/index.html"))
   })
 }
 
