@@ -118,9 +118,9 @@ const Sidebar = () => {
       >
         <img src={chatLogo} width={"50px"} alt="" />
         <Tooltip label="Search user">
-          <Button onClick={onOpen}>
+          <MenuButton onClick={onOpen}>
             <SearchIcon fontSize={"xl"} />
-          </Button>
+          </MenuButton>
         </Tooltip>
         <Menu>
           <MenuButton>  
