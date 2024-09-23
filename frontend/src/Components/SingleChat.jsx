@@ -18,8 +18,6 @@ import { toast } from "react-toastify";
 import ScrollableChat from "./ScrollableChat";
 import "./style.css";
 import io from "socket.io-client";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import animationData from "../assets/Animation - 1726121902227.json";
 import chatareaImg from "../assets/chatarea.jpg"
 
 const ENDPOINT = "http://localhost:5000";
