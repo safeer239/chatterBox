@@ -118,9 +118,9 @@ const Sidebar = () => {
       >
         <img src={chatLogo} width={"50px"} alt="" />
         <Tooltip label="Search user">
-          <MenuButton onClick={onOpen}>
+          <Box onClick={onOpen}>
             <SearchIcon fontSize={"xl"} />
-          </MenuButton>
+          </Box>
         </Tooltip>
         <Menu>
           <MenuButton>  
@@ -146,9 +146,9 @@ const Sidebar = () => {
         <div>
           <Tooltip label="Add group">
             <GroupChatModal>
-              <Button>
+              <Box>
                 <img src={groupAdd} width={"50px"}  alt="" />
-              </Button>
+              </Box>
             </GroupChatModal>
           </Tooltip>
         </div>
@@ -173,9 +173,9 @@ const Sidebar = () => {
           </div>
         </ProfileModal>
         <Tooltip label="Logout">
-          <Button onClick={logoutHandler}>
+          <Box onClick={logoutHandler}>
             <i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i>
-          </Button>
+          </Box>
         </Tooltip>
         <Drawer placement="left" onClose={onClose} isOpen={isOpen}>
           <DrawerOverlay />

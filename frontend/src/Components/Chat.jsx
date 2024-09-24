@@ -43,7 +43,7 @@ const Chat = ({fetchAgain}) => {
       <Box
       p={2}
       px={3}
-      mb={2}
+      mb={2}  
       fontSize="30px"
       fontFamily="Work sans"
       bg="#caf0f8"
@@ -54,7 +54,7 @@ const Chat = ({fetchAgain}) => {
 
       <Box
       d="flex"
-      p={3}
+      p={3} 
       flexDirection="column"
       bg="#f8f8f8"
       w="100%"
@@ -71,7 +71,7 @@ const Chat = ({fetchAgain}) => {
               bg={selectedChat === chat ? "#bde0fe" : "#e8e8e8"}
               color={selectedChat===chat?"black": "black"}
               px={3}
-              py={4}
+              pt={3}
               _hover={"#a2d2ff"}
               borderRadius="lg"
               key={chat._id}
